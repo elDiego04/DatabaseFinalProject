@@ -1,3 +1,6 @@
+-- obtener información detallada sobre los libros que tienen el precio más alto dentro de cada género, 
+-- pero solo aquellos libros cuyo año de publicación sea anterior a 2000 y cuyo número de páginas esté por encima del promedio global de páginas.
+
 CREATE VIEW View2 AS
 WITH libros_filtrados AS (
     SELECT 
